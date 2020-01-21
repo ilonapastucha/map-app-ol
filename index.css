@@ -1,0 +1,69 @@
+.map {
+    width: 100%;
+    height:600px;
+}
+
+form {
+    margin: 20px;
+}
+
+#info {
+    margin: 20px;
+}
+
+form label {
+    padding-right: 10px;
+    font-size: 20px;
+    color: #0c0730;
+    font-weight: bold;
+
+}
+
+form #type{
+    font-size: 16px;
+    color: #0c0730;
+    border-radius: 5px;    
+}
+
+#coordTable {
+    padding: 5px;
+    text-align: center;
+    font: 100% sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #392e50;
+    min-width: 50%;
+   
+}
+
+
+#coordTable > thead > tr:first-child {
+    text-align: center;
+    color: #0c0730;
+    font-weight: bold;  
+}
+
+#coordTable > thead > tr:first-child td:nth-child(2) {
+    border-left: solid 2px #392e50;
+}
+
+#coordTable > thead > tr + tr {
+    font-style: italic;
+    color: #6e5261;
+    border-bottom: 3px solid #392e50;
+}
+
+#coordTable > tbody > tr:nth-child(even) {
+    background: whitesmoke;
+}
+
+#coordTable > tbody > tr:nth-child(odd) {
+    background: #f6e7b0;
+}
+
+#coordTable td {
+    padding: .5em 1em .5em 1em;
+}
+
+#coordTable td:nth-child(3) {
+    border-left: solid 2px #392e50;
+}
